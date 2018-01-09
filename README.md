@@ -1,4 +1,4 @@
-Problem Statement
+Problem​ ​Statement
 I own a multi-storey parking lot that can hold up to 'n' cars at any given point in time.
 Each slot is given a number starting at 1 increasing with increasing distance from the
 entry point in steps of one. I want to create an automated ticketing system that
@@ -26,7 +26,7 @@ commands can be typed in
 2) It should accept a filename as a parameter at the command prompt and read the
 commands from that file
 
-Example: File
+Example:​ ​File
 To run the program:
 $ ./parking_lot file_inputs.txt
 Input​ ​(contents​ ​of​ ​file):
