@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ $# -eq 0 ]
+  then
+    python source/parking_lot.py
+else
+    if [ -e $1 ]
+    then
+        python source/parking_lot.py $1
+    else
+        echo "$1 File not exists"
+    fi
+fi
